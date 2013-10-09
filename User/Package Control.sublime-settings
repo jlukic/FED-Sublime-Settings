@@ -1,0 +1,27 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"Coffee Formatter",
+		"CSScomb",
+		"Function Name Display",
+		"Git",
+		"Goto-CSS-Declaration",
+		"JsFormat",
+		"LESS",
+		"Package Control",
+		"Prefixr",
+		"Search Stack Overflow",
+		"SFTP",
+		"SplitScreen-Resizer",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Phoenix",
+		"Theme - Soda",
+		"TidyTabs",
+		"ToggleQuotes",
+		"Tomorrow Color Schemes",
+		"zenburn"
+	]
+}

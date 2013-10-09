@@ -1,0 +1,53 @@
+[
+
+  /*******************************
+             Shortcuts
+  *******************************/
+
+  // uppercase current selection
+  { "keys": ["ctrl+u"], "command": "upper_case" },
+
+  // reindent entire file
+  { "keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": false} },
+
+  // erb templating shortcut
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+
+  // new file on t
+  { "keys": ["ctrl+t"], "command": "new_file" },
+
+
+  /*******************************
+          Package Shortcuts
+  *******************************/
+
+  // delete trailing spaces
+  { "keys": ["ctrl+space"], "command": "delete_trailing_spaces" },
+
+  // search stack overflow
+  { "keys": ["ctrl+command+/"], "command": "stackoverflow_search_from_input" },
+
+  // add vendor prefixes
+  { "keys": ["ctrl+command+x"], "command": "prefixr" },
+
+  // sort css rules
+  { "keys": ["ctrl+command+c"], "command": "css_sorter" },
+
+  // add/change ftp
+  { "keys": ["ctrl+command+shift+p"], "command": "sftp_browse_server" },
+
+  // goto next css definition
+  { "keys": ["ctrl+command+right"], "command": "goto_css_declaration", "args": {"goto": "next"}},
+  { "keys": ["ctrl+command+left"], "command": "goto_css_declaration", "args": {"goto": "prev"}},
+
+  // align all variable declarations
+  { "keys": ["ctrl+command+a"], "command": "alignment" },
+
+  // reside and change column
+  { "keys": ["ctrl+left"], "command": "split_screen_resizer", "args": {"side": "left"} },
+  { "keys": ["ctrl+right"], "command": "split_screen_resizer", "args": {"side": "right"} },
+
+  // close all old tabs
+  { "keys": ["ctrl+command+w"], "command": "tidy_tabs" }
+
+]

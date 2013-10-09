@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Soda.tmTheme",
+	"default_line_ending": "unix",
+	"fold_buttons": false,
+	"font_face": "Consolas",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"phoenix_color_blue": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_small": true,
+	"scroll_speed": 0,
+	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

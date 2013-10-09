@@ -1,0 +1,54 @@
+{
+
+  "jshint_options":
+  {
+    //"unused"    : true,
+    //"quotmark"  : "single",
+
+    "browser"   : true,
+    "indent"    : false,
+    "curly"     : true,
+    "immed"     : true,
+    "latedef"   : true,
+    "noarg"     : true,
+    "undef"     : true,
+    "sub"       : true,
+
+    // lax options
+    "trailing"  : false,
+    "laxbreak"  : true,
+    "globals":  {
+        "console"               : true,
+        "jQuery"                : true,
+        "$"                     : true,
+        "quirky"                : true,
+        "fav4"                  : true,
+        "AnimatedPNG"           : true,
+        "requestAnimationFrame" : true,
+        "Resize"                : true,
+        "semantic"              : true
+    }
+  },
+
+  "csslint_options": {
+    "adjoining-classes"           : false,
+    "empty-rules"                 : true,
+    "box-model"                   : false,
+
+    "compatible-vendor-prefixes"  : false,
+    "display-property-grouping"   : true,
+
+    "box-sizing"                  : false,
+    "duplicate-background-images" : false,
+    "duplicate-properties"        : true,
+    "floats"                      : false,
+    "important"                   : false,
+    "overqualified-elements"      : false,
+    "rules-count"                 : false,
+    "shorthand"                   : false,
+    "vendor-prefix"               : true,
+    "zero-units"                  : false
+  }
+
+
+}

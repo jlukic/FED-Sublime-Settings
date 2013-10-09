@@ -1,0 +1,32 @@
+{
+	"type": "sftp",
+	"host": "wbond.net",
+	"user": "will",
+	"remote_path": "/var/www/wbond.net/example",
+	"ignore_regex": "(\\.svn|\\.hg|\\.git|\\.bzr|_darcs|CVS)",
+	//"preserve_modification_times": true,
+	//"password": "password",
+	"upload_on_save": true,
+
+	//"type": "ftp",
+	//"host": "vm-xp",
+	//"user": "will",
+	//"remote_path": "/",
+	//"ignore_regex": "(\\.svn|\\.hg|\\.git|\\.bzr|_darcs|CVS)",
+	//"password": "peeHpee5",
+
+	//"type": "sftp",
+	//"host": "wbond.net",
+	//"user": "wbond",
+	//"remote_path": "/var/www/vhosts/wbond.net/example/",
+	//"ignore_regex": "*(\\.svn|\\.hg|\\.git|\\.bzr|_darcs|CVS)",
+
+	"port": 22,
+	//,"file_permissions": "664"
+	//,"dir_permissions": "775"
+	//,"ftp_passive_mode": true
+	"ssh_key_file": "/home/will/id_rsa",
+	//,"sftp_flags": "-F /path/to/ssh_config"
+	//,"ftp_passive_mode": true
+}
+

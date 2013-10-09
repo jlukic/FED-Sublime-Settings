@@ -1,0 +1,7 @@
+{
+  "resize_on_focus" : false,
+  "focus_on_resize" : true,
+
+  "ratio_left"  : "65:35",
+  "ratio_right" : "35:65"
+}

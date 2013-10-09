@@ -1,0 +1,4 @@
+{
+    // Controls auto pairing of quotes, brackets etc
+    "auto_match_enabled": true
+} 
